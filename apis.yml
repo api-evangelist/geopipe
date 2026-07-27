@@ -1,19 +1,51 @@
 aid: geopipe
 name: Geopipe
-description: Geopipe is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Geopipe uses AI and machine learning to build game-ready digital twins of
+  real-world cities and environments. It ingests raw sensor data (imagery and
+  laser scans) and reconstructs regions as semantically-modeled, multi-level-of-
+  detail 3D models that developers stream or download into games, simulations,
+  training, architecture, and metaverse applications without any manual 3D
+  modeling. Delivery is through Cesium 3D Tiles streaming for Unity and Unreal
+  Engine, downloadable 3D meshes in common file formats, ready-to-use Unity
+  Asset Store packs, and a first-party Unity SDK, backed by an open-source
+  geospatial and 3D-tiles toolchain on GitHub. Founded in New York City by
+  Christopher Mitchell and Thomas Dickerson and backed by Techstars.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static.wixstatic.com/media/e35cce_98f6141f448e4a43922e904306a322b2~mv2.png
 url: https://raw.githubusercontent.com/api-evangelist/geopipe/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - techstars
-x-tier: stub
+x-tier: profiled
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- 3D
+- Digital Twins
+- Geospatial
+- Gaming
+- Simulation
+- Unity
+- Unreal Engine
+- Cesium
+- 3D Tiles
+- Metaverse
+- Maps
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,24 @@ maintainers:
 common:
 - type: Website
   url: https://geopipe.ai/
+- type: SignUp
+  url: https://cs.geopi.pe/register
+- type: Blog
+  url: https://geopipe.ai/news
+- type: BlogRSS
+  url: https://www.geopipe.ai/blog-feed.xml
+- type: GitHubOrganization
+  url: https://github.com/geopipe
+- type: Packages
+  url: packages/geopipe-packages.yml
+- type: SDKs
+  url: https://assetstore.unity.com/publishers/57748
+- type: LLMsTxt
+  url: llms/geopipe-llms.txt
+- type: DomainSecurity
+  url: security/geopipe-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,49 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/geopipe
+notes: >-
+  Geopipe publishes no client library on npm, PyPI, Maven Central, NuGet,
+  pkg.go.dev, RubyGems, Packagist, or crates.io (all registries probed empty).
+  Their first-party software is (a) an open-source geospatial / 3D-tiles
+  toolchain on the github.com/geopipe org and (b) the "Geopipe for Unity" SDK /
+  asset packs distributed through the Unity Asset Store (publisher 57748).
+  Marked official:true only for repos authored by the Geopipe org (forks such as
+  cesium, PROJ, cgal, pcl, COLLADA2GLTF are excluded).
+packages:
+  - name: gltf2glb
+    language: python
+    registry: github
+    url: https://github.com/geopipe/gltf2glb
+    description: GLTF to Binary GLTF (GLB) converter, supporting Cesium Batch and Instance files (b3dm and i3dm).
+    kind: tool
+    official: true
+  - name: s2cell
+    language: python
+    registry: github
+    url: https://github.com/geopipe/s2cell
+    description: Minimal Python S2 Geometry cell ID, token and lat/lon conversion library.
+    kind: library
+    official: true
+  - name: BatchGeometry
+    language: scala
+    registry: github
+    url: https://github.com/geopipe/BatchGeometry
+    description: Tools for preparing Collada models to be converted into .b3dm for 3D Tiles.
+    kind: tool
+    official: true
+  - name: PolygonSimplification
+    language: cpp
+    registry: github
+    url: https://github.com/geopipe/PolygonSimplification
+    description: Header-only C++ library using CGAL to simplify polygons.
+    kind: library
+    official: true
+  - name: Geopipe for Unity
+    language: csharp
+    registry: unity-asset-store
+    url: https://assetstore.unity.com/publishers/57748
+    description: >-
+      First-party Unity SDK and ready-to-use asset packs that stream / import
+      Geopipe's real-world 3D city digital twins directly into Unity projects.
+    kind: sdk
+    official: true
