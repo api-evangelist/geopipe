@@ -11,6 +11,17 @@ description: >-
   Asset Store packs, and a first-party Unity SDK, backed by an open-source
   geospatial and 3D-tiles toolchain on GitHub. Founded in New York City by
   Christopher Mitchell and Thomas Dickerson and backed by Techstars.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
